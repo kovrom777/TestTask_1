@@ -1,0 +1,6 @@
+framework module Pods_OneScreenApp {
+  umbrella header "Pods-OneScreenApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

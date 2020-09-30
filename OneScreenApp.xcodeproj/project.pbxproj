@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E050A12C2523DEF0002EAEB6 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E050A12B2523DEEF002EAEB6 /* SFProDisplay-Bold.ttf */; };
+		E076823E25245F9200782135 /* CollectionViewCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076823D25245F9200782135 /* CollectionViewCellCollectionViewCell.swift */; };
+		E07682492524613300782135 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07682482524613300782135 /* CollectionViewModel.swift */; };
+		E0E0309B2524824B00194820 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0309A2524824B00194820 /* CollectionViewCell.swift */; };
 		E0ED4FC125233D3C00FBB771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED4FC025233D3C00FBB771 /* AppDelegate.swift */; };
 		E0ED4FC325233D3C00FBB771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED4FC225233D3C00FBB771 /* SceneDelegate.swift */; };
 		E0ED4FC525233D3C00FBB771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED4FC425233D3C00FBB771 /* ViewController.swift */; };
 		E0ED4FC825233D3C00FBB771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ED4FC625233D3C00FBB771 /* Main.storyboard */; };
 		E0ED4FCA25233D4100FBB771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0ED4FC925233D4100FBB771 /* Assets.xcassets */; };
 		E0ED4FCD25233D4100FBB771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ED4FCB25233D4100FBB771 /* LaunchScreen.storyboard */; };
+		E0ED4FD625233F7700FBB771 /* ColorsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED4FD525233F7700FBB771 /* ColorsConstant.swift */; };
+		E0ED4FF7252342A700FBB771 /* SonsieOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0ED4FF6252342A700FBB771 /* SonsieOne-Regular.ttf */; };
+		E0ED4FFF2523489A00FBB771 /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0ED4FFE2523489A00FBB771 /* SFProDisplay-Semibold.ttf */; };
+		E0ED5002252348BD00FBB771 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0ED5001252348BD00FBB771 /* SFProDisplay-Regular.ttf */; };
+		E0ED503A25235CC200FBB771 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED503925235CC200FBB771 /* UIViewExtension.swift */; };
+		FF9D9751896CB43DD4E1D86D /* Pods_OneScreenApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268E7602D309F5546635453B /* Pods_OneScreenApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		268E7602D309F5546635453B /* Pods_OneScreenApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneScreenApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76690B9D8D54D720A2436DE3 /* Pods-OneScreenApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneScreenApp.debug.xcconfig"; path = "Target Support Files/Pods-OneScreenApp/Pods-OneScreenApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A0C8B7CC9B0019826F86A2F0 /* Pods-OneScreenApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneScreenApp.release.xcconfig"; path = "Target Support Files/Pods-OneScreenApp/Pods-OneScreenApp.release.xcconfig"; sourceTree = "<group>"; };
+		E050A12B2523DEEF002EAEB6 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		E076823D25245F9200782135 /* CollectionViewCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		E07682482524613300782135 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		E0E0309A2524824B00194820 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		E0ED4FBD25233D3C00FBB771 /* OneScreenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneScreenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0ED4FC025233D3C00FBB771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0ED4FC225233D3C00FBB771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,11 @@
 		E0ED4FC925233D4100FBB771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0ED4FCC25233D4100FBB771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0ED4FCE25233D4100FBB771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ED4FD525233F7700FBB771 /* ColorsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsConstant.swift; sourceTree = "<group>"; };
+		E0ED4FF6252342A700FBB771 /* SonsieOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SonsieOne-Regular.ttf"; sourceTree = "<group>"; };
+		E0ED4FFE2523489A00FBB771 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		E0ED5001252348BD00FBB771 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		E0ED503925235CC200FBB771 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9D9751896CB43DD4E1D86D /* Pods_OneScreenApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10C73642BC5EAA7F6410B2FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268E7602D309F5546635453B /* Pods_OneScreenApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21DA1C97DB3F24B54221774E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76690B9D8D54D720A2436DE3 /* Pods-OneScreenApp.debug.xcconfig */,
+				A0C8B7CC9B0019826F86A2F0 /* Pods-OneScreenApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0768241252460AC00782135 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0768243252460C000782135 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E076823D25245F9200782135 /* CollectionViewCellCollectionViewCell.swift */,
+				E0ED4FC425233D3C00FBB771 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0768245252460D100782135 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E07682482524613300782135 /* CollectionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E07682472524610C00782135 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0ED503925235CC200FBB771 /* UIViewExtension.swift */,
+				E0E0309A2524824B00194820 /* CollectionViewCell.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E0ED4FB425233D3C00FBB771 = {
 			isa = PBXGroup;
 			children = (
 				E0ED4FBF25233D3C00FBB771 /* OneScreenApp */,
 				E0ED4FBE25233D3C00FBB771 /* Products */,
+				21DA1C97DB3F24B54221774E /* Pods */,
+				10C73642BC5EAA7F6410B2FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +132,31 @@
 		E0ED4FBF25233D3C00FBB771 /* OneScreenApp */ = {
 			isa = PBXGroup;
 			children = (
+				E07682472524610C00782135 /* Extensions */,
 				E0ED4FC025233D3C00FBB771 /* AppDelegate.swift */,
 				E0ED4FC225233D3C00FBB771 /* SceneDelegate.swift */,
-				E0ED4FC425233D3C00FBB771 /* ViewController.swift */,
+				E0ED4FD525233F7700FBB771 /* ColorsConstant.swift */,
+				E0768245252460D100782135 /* ViewModel */,
+				E0768243252460C000782135 /* View */,
+				E0768241252460AC00782135 /* Model */,
+				E0ED4FF5252341A000FBB771 /* fonts */,
 				E0ED4FC625233D3C00FBB771 /* Main.storyboard */,
 				E0ED4FC925233D4100FBB771 /* Assets.xcassets */,
 				E0ED4FCB25233D4100FBB771 /* LaunchScreen.storyboard */,
 				E0ED4FCE25233D4100FBB771 /* Info.plist */,
 			);
 			path = OneScreenApp;
+			sourceTree = "<group>";
+		};
+		E0ED4FF5252341A000FBB771 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E050A12B2523DEEF002EAEB6 /* SFProDisplay-Bold.ttf */,
+				E0ED5001252348BD00FBB771 /* SFProDisplay-Regular.ttf */,
+				E0ED4FFE2523489A00FBB771 /* SFProDisplay-Semibold.ttf */,
+				E0ED4FF6252342A700FBB771 /* SonsieOne-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0ED4FD125233D4100FBB771 /* Build configuration list for PBXNativeTarget "OneScreenApp" */;
 			buildPhases = (
+				B507CB9B45DACF20D7703CCC /* [CP] Check Pods Manifest.lock */,
 				E0ED4FB925233D3C00FBB771 /* Sources */,
 				E0ED4FBA25233D3C00FBB771 /* Frameworks */,
 				E0ED4FBB25233D3C00FBB771 /* Resources */,
+				8553BA7FCC8617CDDE7875E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +221,70 @@
 				E0ED4FCD25233D4100FBB771 /* LaunchScreen.storyboard in Resources */,
 				E0ED4FCA25233D4100FBB771 /* Assets.xcassets in Resources */,
 				E0ED4FC825233D3C00FBB771 /* Main.storyboard in Resources */,
+				E0ED5002252348BD00FBB771 /* SFProDisplay-Regular.ttf in Resources */,
+				E050A12C2523DEF0002EAEB6 /* SFProDisplay-Bold.ttf in Resources */,
+				E0ED4FFF2523489A00FBB771 /* SFProDisplay-Semibold.ttf in Resources */,
+				E0ED4FF7252342A700FBB771 /* SonsieOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8553BA7FCC8617CDDE7875E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneScreenApp/Pods-OneScreenApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneScreenApp/Pods-OneScreenApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneScreenApp/Pods-OneScreenApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B507CB9B45DACF20D7703CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneScreenApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0ED4FB925233D3C00FBB771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E076823E25245F9200782135 /* CollectionViewCellCollectionViewCell.swift in Sources */,
+				E0ED503A25235CC200FBB771 /* UIViewExtension.swift in Sources */,
+				E0E0309B2524824B00194820 /* CollectionViewCell.swift in Sources */,
+				E07682492524613300782135 /* CollectionViewModel.swift in Sources */,
 				E0ED4FC525233D3C00FBB771 /* ViewController.swift in Sources */,
 				E0ED4FC125233D3C00FBB771 /* AppDelegate.swift in Sources */,
 				E0ED4FC325233D3C00FBB771 /* SceneDelegate.swift in Sources */,
+				E0ED4FD625233F7700FBB771 /* ColorsConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +428,7 @@
 		};
 		E0ED4FD225233D4100FBB771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76690B9D8D54D720A2436DE3 /* Pods-OneScreenApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +448,7 @@
 		};
 		E0ED4FD325233D4100FBB771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C8B7CC9B0019826F86A2F0 /* Pods-OneScreenApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
